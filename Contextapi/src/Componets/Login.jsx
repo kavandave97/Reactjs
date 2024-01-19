@@ -8,7 +8,7 @@ const Login = () => {
   const { Setuser } = useContext(Usercontext);
   const handleclick = (e) => {
     e.preventDefault();
-    Setuser(username, password);
+    Setuser([username, password]);
   };
 
   return (

@@ -7,7 +7,7 @@ const Profile = () => {
   if (!user) {
     return <h1>Enter Your Username</h1>;
   } else {
-    return <h1>{user}</h1>;
+    return <h1>Welcome : {user[0]}</h1>;
   }
 };
 
