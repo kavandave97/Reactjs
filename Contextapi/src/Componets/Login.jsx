@@ -27,14 +27,12 @@ function Login() {
             value={username}
             onChange={(e) => SetUsername(e.target.value)}
             placeholder="Enter Your Name"
-            id="userinput"
           />
           <input
             type="text"
             value={password}
             onChange={(e) => Setpassword(e.target.value)}
             placeholder="Enter Password"
-            id="passinput"
           />
           <button onClick={handleclick}>Login</button>
         </form>
