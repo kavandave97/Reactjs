@@ -2,11 +2,6 @@ import React, { useContext, useState } from "react";
 import Usercontext from "../Context/Usercontext";
 
 function Login() {
-  // fetch input box id
-  let input1 = document.getElementById("userinput");
-  let pass1 = document.getElementById("passinput");
-  // let form = document.getElementById("forms");
-
   const [username, SetUsername] = useState("");
   const [password, Setpassword] = useState("");
 
